@@ -25,8 +25,7 @@ e_num = both_names.count("e")
 love_val = l_num + o_num + v_num + e_num
 
 # TRUE LOVE Value
-score = str(true_val) + str(love_val)
-score = int(score)
+score = int(str(true_val) + str(love_val))
 
 # Score Interpretation
 if score < 10 or score > 90:
